@@ -1,0 +1,22 @@
+c++ is a compiled language with static typecasting. type checking is performed at compile time, leading to fewer runtime errors
+#include <iostream> for including cout and cin input and output
+returning nonzero can mean error  
+sizeof() operator for finding the size of different types 
+int i1 = 7.2; // i1 becomes 7
+int i2 {7.2}; // error : floating-point to integer conversion
+int i3 = {7.2}; // error : floating-point to integer conversion (the = is redundant)
+comparision operators returns a boolean
+C++ supports two notions of immutability:
+• const
+• constexpr:‘‘to be evaluated at compile time’’ for optimization 
+In declarations, [] means ‘‘array of’’ and ∗ means ‘‘pointer to.’’ 
+The size of an array must be a constant expression
+for (initialization; condition; increment) {
+    // Code to execute
+} //for loop is an abstraction of while loop abstacting implementation and increment and condition in oneline of Code
+reference 
+    //int a=1;
+    //const int& b=a; //b is a reference to a and b is immutable
+* arrays in c and c++ are passes by reference because name of the array acts like a pointer
+
+// this keyword can be used to access the address of instance of the object ex: in a class object in a function this can be used to access the data in class object
